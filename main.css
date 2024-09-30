@@ -1,30 +1,27 @@
+:root{
+    --global-color-1: #404040}
 body{
     color:black;
-    text-align:justify;
-}
+    text-align:justify;}
 header{
     font-style:italic;
-    text-shadow: 4px;
-}
+    text-shadow: 4px;}
 h1{
     color:blue;
-    text-align: center;
-}
+    text-align: center;}
 h2 {
     color:aqua;
-    text-align: center;
-}
+    text-align: center;}
 nav ul{
-    a:link {color:blueviolet}
-    a:hover, a:focus {color:coral;}
+    :link {color:blueviolet}
+    :hover, :focus {color:coral;}
     text-decoration: underline;
-    font-style:italic;
-}
+    font-style:italic;}
 section{
     text-transform: none;
-    color: brown;
-}
+    color: brown;}
 footer{
     font-style:normal;
-    font-size: smaller;
-}
+    font-size: smaller;}
+:root{
+    --global-color-1: #404040}
