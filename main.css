@@ -1,27 +1,32 @@
-:root{
-    --global-color-1: #404040}
 body{
     color:black;
-    text-align:justify;}
+    text-align:left ;}
+
 header{
     font-style:italic;
-    text-shadow: 4px;}
+    text-shadow: 2px 2px;}
+
 h1{
     color:blue;
+    background-color: aqua;
     text-align: center;}
+
 h2 {
     color:aqua;
     text-align: center;}
+
 nav ul{
-    :link {color:blueviolet}
-    :hover, :focus {color:coral;}
     text-decoration: underline;
     font-style:italic;}
+
+nav :hover, :focus {color:blueviolet}
+
 section{
     text-transform: none;
-    color: brown;}
+    color: brown;
+    background-color: cornsilk;
+}
+
 footer{
     font-style:normal;
     font-size: smaller;}
-:root{
-    --global-color-1: #404040}
