@@ -1,27 +1,38 @@
 body{
     color:black;
-    text-align:left ;}
+    max-width: 80%;
+    margin: none;
+}
 
 header{
+    margin: center;
+    text-align: center;
     font-style:italic;
     text-shadow: 2px 2px;}
 
 h1{
+    width: 75%;
     color:blue;
     background-color: aqua;
-    text-align: center;}
+    float: center;}
 
-h2 {
-    color:aqua;
-    text-align: center;}
+h3{ color: black;
+    text-align: center;
+    background-color: lawngreen;   
+}
 
 nav ul{
+    padding: 0%;
+    width:41.75%;
     text-decoration: underline;
-    font-style:italic;}
+    font-style:italic;
+    list-style-type: none;
+    }
 
 nav :hover, :focus {color:blueviolet}
 
 section{
+    margin: center;
     text-transform: none;
     color: brown;
     background-color: cornsilk;
