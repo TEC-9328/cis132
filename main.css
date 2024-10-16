@@ -1,25 +1,32 @@
 body{
     color:black;
     max-width: 80%;
-    margin: none;
+    background-color:white;
+    width: 1000px;;
+    margin: 15px auto;
+    border:1px solid black
 }
 
 header{
+    border-bottom: 2px solid orange;
     margin: center;
     text-align: center;
     font-style:italic;
-    text-shadow: 2px 2px;}
-
-h1{
-    width: 75%;
-    color:blue;
-    background-color: aqua;
-    float: center;}
-
-h3{ color: black;
-    text-align: center;
-    background-color: lawngreen;   
+    text-shadow: 2px 2px;
+    background-color: aquamarine;
 }
+
+main{
+    width: 75%;
+    background-color: aqua;
+    float: center;
+    background-color: red;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    float: left;
+    border-right:1px solid orange
+} 
 
 nav ul{
     padding: 0%;
@@ -39,5 +46,9 @@ section{
 }
 
 footer{
+    background-color: limegreen;
     font-style:normal;
-    font-size: smaller;}
+    font-size: smaller;
+    clear: both;
+    border-top: 2px solid orange ;
+}
